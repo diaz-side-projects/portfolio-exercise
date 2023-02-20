@@ -10,7 +10,7 @@ body{
 
 .header{
     height: 100vh;
-    background-image: linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url('https://img.freepik.com/free-vector/abstract-splashed-watercolor-textured-background_53876-8728.jpg?w=1380&t=st=1676896777~exp=1676897377~hmac=3d901446221138333d829ff56d853f1ef03dc032237c3f799c91068cd4fc6895');
+    background-image: linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url('https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
 }
@@ -41,7 +41,7 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .header-text{
@@ -50,6 +50,9 @@ nav ul li a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 18px;
     text-align: center;
+}
+
+.header-text h1{
+    font-size: 50px;
 }
