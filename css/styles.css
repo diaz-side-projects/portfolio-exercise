@@ -10,7 +10,46 @@ body{
 
 .header{
     height: 100vh;
-    background-image: linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url('https://cdn.donmai.us/sample/dc/08/__dom_animal_crossing_drawn_by_nekonekosan_kemushima3__sample-dc08f7c938cc39d2907e5a3ab2127831.jpg');
+    background-image: linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url('https://img.freepik.com/free-vector/abstract-splashed-watercolor-textured-background_53876-8728.jpg?w=1380&t=st=1676896777~exp=1676897377~hmac=3d901446221138333d829ff56d853f1ef03dc032237c3f799c91068cd4fc6895');
     background-size: cover;
     background-position: center;
+}
+
+.header-brand{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 60px;
+}
+
+.header-brand__span{
+    color: #C53C3C;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-text{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-align: center;
 }
