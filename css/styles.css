@@ -7,3 +7,10 @@
 body{
     font-family:'Poppins', sans-serif;
 }
+
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url('https://cdn.donmai.us/sample/dc/08/__dom_animal_crossing_drawn_by_nekonekosan_kemushima3__sample-dc08f7c938cc39d2907e5a3ab2127831.jpg');
+    background-size: cover;
+    background-position: center;
+}
