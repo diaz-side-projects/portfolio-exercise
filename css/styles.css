@@ -59,6 +59,7 @@ nav ul li a{
 }
 
 /************************** ABOUT ME SECTION **************************/
+
 .about{
     background-color: #4d4f51;
     height: 80vh;
@@ -100,6 +101,7 @@ nav ul li a{
     width: 5%;
     margin-right: 50px;
 }
+
 /************************** MY PORTFOLIO SECTION *************************/
 .portfolio{
     height: 100vh;
@@ -147,6 +149,13 @@ nav ul li a{
     font-size: 30px;
     cursor: pointer;
 }
+
 /************************** CONTACT SECTION **************************/
 
+.contact{
+    background-color: #633939;
+    height: 100vh;
+    margin-top: 300px;
+    padding: 5%;
+}
 /************************** FOOTER SECTION ***************************/
