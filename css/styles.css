@@ -10,7 +10,7 @@ body{
 
 .header{
     height: 100vh;
-    background-image: linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url('https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48), rgba(20, 20, 20, 0.48)), url('https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
 }
@@ -55,4 +55,36 @@ nav ul li a{
 
 .header-text h1{
     font-size: 50px;
+    margin-top: 10px;
 }
+
+/************************** ABOUT ME SECTION **************************/
+.about{
+    background-color: #4d4f51;
+    height: 80vh;
+}
+
+.about-text{
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.about-text h2{
+    font-size: 50px;
+    padding-top: 6rem;
+}
+
+.about-text p{
+    padding-top: 2rem;
+    line-height: 1.8rem;
+}
+
+
+
+/************************** MY PORTFOLIO SECTION *************************/
+
+/************************** CONTACT SECTION **************************/
+
+/************************** FOOTER SECTION ***************************/
