@@ -373,7 +373,7 @@ footer {
 }
 
 .about__content{
-  color: white;
+  color: rgb(207, 220, 255);
 }
 
 .about__content p{
@@ -389,12 +389,20 @@ footer {
   height: 180vh;
 }
 
+.portfolio h2 {
+  font-size: 50px;
+  padding-top: 0;
+}
+
 .portfolio__img img{
   width:70%;
   height: 280px;
   margin: 0 auto;
 }
 
+.portfolio__btn{
+  font-size: 2rem;
+}
 /* 
 .portfolio__container {
   display: grid;
