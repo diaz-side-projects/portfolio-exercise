@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /*********************ELEMENT SELECTORS OR GLOBAL STYLES********************************/
 
 body {
@@ -32,7 +36,7 @@ body {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 700px;
-  font-size: 60px;
+  font-size: 60px; 
 }
 
 .header-brand__span {
@@ -74,6 +78,10 @@ nav ul li a {
 .header-text--2{
   display: none;
 }
+
+#about{
+  scroll-behavior: smooth;
+}
 /************************** ABOUT ME SECTION **************************/
 
 .about {
@@ -100,17 +108,18 @@ nav ul li a {
 .about-text p {
   padding-top: 2rem;
   line-height: 1.8rem;
+  text-align: center;
 }
 
 .about-skills {
   width: 50%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+  color: white;
   margin: auto;
   padding-top: 3%;
+  display: flex;
   justify-content: center;
-  color: white;
+  flex-direction: row;
+  align-items: center;
 }
 
 .about-skills h3 {
@@ -118,6 +127,7 @@ nav ul li a {
 }
 
 .about-skills__h3--1 {
+  border-bottom: 3px solid #4d4f51;
   width: 5%;
   margin-right: 50px;
 }
@@ -381,6 +391,10 @@ footer {
   margin-left: 10%;
 }
 
+.about__para--1{
+  color: #9fc8da;
+ }
+ 
 }
 /*-----------------------------PORTFOLIO SECTION-----------------------------------*/
 @media only screen and (max-width: 600px){
