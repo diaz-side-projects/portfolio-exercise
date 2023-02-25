@@ -322,34 +322,69 @@ footer {
   .header-text--2 span{
       color: #9aa3ff;
   }
-
-/* 
-  .header-brand {
-     
-  }
-  .header-brand__span {
-    
-  }
-  nav {
-    
-  }
-  nav ul li {
-     
-  }
-  nav ul li a {
-     
-  }
- 
-  .header-text h1 {
-     
-  } */
 }
 
 /*-----------------------------ABOUT SECTION-------------------------------------*/
-/* @media only screen and (max width: 600px){
-    
+/*************BREAKPOINT MOBILE 600px*****************/
+@media only screen and (max width: 600px){
+  
+.about{
+  padding: 10%;       
+  height: 150vh;   
+}
+
+.about-img{
+  display: block;
+  text-align: center;
+  padding: 0 3% 5% 0;
+}
+
+
+
+/* 
+.about {
+  background-color: #4d4f51;
+  height: 80vh;
+}
+
+.about-text {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.about-text h2 {
+  font-size: 50px;
+  padding-top: 6rem;
+}
+
+.about-text p {
+  padding-top: 2rem;
+  line-height: 1.8rem;
+}
+
+.about-skills {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 3%;
+  justify-content: center;
+  color: white;
+}
+
+.about-skills h3 {
+  padding-right: 5%;
+}
+
+.about-skills__h3--1 {
+  width: 5%;
+  margin-right: 50px;
 } */
 
+}
 /*-----------------------------PORTFOLIO SECTION-----------------------------------*/
 /* @media only screen and (max width: 600px){
     
