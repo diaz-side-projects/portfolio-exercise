@@ -81,6 +81,10 @@ nav ul li a {
   height: 80vh;
 }
 
+.about-img{
+  display: none;
+}
+
 .about-text {
   color: white;
   margin: auto;
@@ -280,67 +284,95 @@ footer {
 /*-----------------------------HERO SECTION-------------------------------------*/
 @media only screen and (max-width: 600px) {
 
-  .header {
-     background-image:none;
-     background-color: #3a3f47;
-  }
+.header {
+  background-image:none;
+  background-color: #3a3f47;
+}
 
-  .header__image{
-      display: block;
-  }
+.header__image{
+  display: block;
+}
 
-  .header__image img{
-      object-fit: cover;
-      position: absolute;
-      top:50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      height: 200px;
-      width: 200px;
-      border-radius: 50%;
-  }
+.header__image img{
+  object-fit: cover;
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
 
-  .header-text {
-      display: none;
-  }
+.header-text {
+  display: none;
+}
 
-  .header-text--2{
-      display: block;
-      position: absolute;
-      top: 80%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-  }
+.header-text--2{
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
 
-  .header-text--2 h2{
-      font-size: 20px;
-      font-weight: 200;
-      line-height: 1.8;
-  }
+.header-text--2 h2{
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.8;
+}
 
-  .header-text--2 span{
-      color: #9aa3ff;
-  }
+.header-text--2 span{
+  color: #9aa3ff;
+}
+
 }
 
 /*-----------------------------ABOUT SECTION-------------------------------------*/
 /*************BREAKPOINT MOBILE 600px*****************/
-@media only screen and (max width: 600px){
+@media only screen and (max-width: 600px) {
   
-.about{
-  padding: 10%;       
-  height: 150vh;   
+  .about {
+    padding-top: 10%;
+    height: 150vh;
+  }
+
+  .about-img {
+    display: block;
+    text-align: center;
+    padding: 0 3% 5% 0;
+  }
+
+  .about-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    transition-delay: 0.01s;
+  }
+
+  .about-img img:hover {
+    transform: translate(-5px, -10px);
+    cursor: pointer;
+    box-shadow: 13px 10px 5px 0px rgba(73, 72, 72, 0.75);
+    -webkit-box-shadow: 13px 10px 5px 0px rgba(54, 53, 53, 0.75);;
+    -moz-box-shadow: 13px 10px 5px 0px rgba(40, 40, 40, 0.75);
+  }
+
+  .about-text{
+    width: 80%;
+  }
+
+ .about-text h2{
+    font-size: 50px;
+    padding-top: 0;
+ }
+
+.about-text p{
+  
 }
 
-.about-img{
-  display: block;
-  text-align: center;
-  padding: 0 3% 5% 0;
-}
-
-
-
+ 
 /* 
 .about {
   background-color: #4d4f51;
