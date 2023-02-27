@@ -132,6 +132,10 @@ nav ul li a {
   margin-right: 50px;
 }
 
+.about__content{ 
+  display: none;
+}
+
 /************************** MY PORTFOLIO SECTION *************************/
 .portfolio {
   height: 100vh;
