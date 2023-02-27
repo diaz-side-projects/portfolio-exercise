@@ -157,10 +157,14 @@ nav ul li a {
 .portfolio__img {
   border-radius: 10px;
   position: relative;
+  transition: .5s ease;
 }
 
+.portfolio__img:hover{
+  transform: scaleY(1.5);
+}
 .portfolio__img img {
-  object-fit: cover;
+  object-fit:cover;
   width: 100%;
   height: 400px;
   border-radius: 10px;
@@ -168,15 +172,13 @@ nav ul li a {
 }
 
 .portfolio__btn {
-  background-color: #333334;
-  color: white;
+  background-color: #45893A;
+  color: #fff;
   height: 84px;
   width: 287px;
-  border-radius: 20px;
+  border-radius: 10px;
   text-decoration: none;
-  padding: 0.5% 1%;
-  font-size: 30px;
-  cursor: pointer;
+  padding: .5% 1%;
 }
 
 /************************** CONTACT SECTION **************************/
@@ -412,50 +414,30 @@ footer {
   width:70%;
   height: 280px;
   margin: 0 auto;
+  margin-bottom: 5%;
 }
 
 .portfolio__btn{
   font-size: 2rem;
 }
-/* 
-.portfolio__container {
-  display: grid;
-  padding: 5%;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  margin-top: 50px;
-  grid-gap: 40px;
-}
-
-.portfolio h2 {
-  margin-top: 1%;
-  font-size: 50px;
-}
-
-.portfolio__img {
-  border-radius: 10px;
-  position: relative;
-}
-
-.portfolio__img img {
-  object-fit: cover;
-
-  border-radius: 10px;
-  display: block;
-}
-
-.portfolio__btn {
-  background-color: #333334;
-  color: white;
-  height: 84px;
-  width: 287px;
-  border-radius: 20px;
-  text-decoration: none;
-  padding: 0.5% 1%;
-  font-size: 30px;
-  cursor: pointer;
-} */
 
 }
+
+/*-------------------------CONTACT SECTION -------------------------*/
+@media only screen and (max-width: 600px){
+  .contact{
+      height: 200vh;
+  }
+
+  .contact__row{
+      flex-direction: column;
+  }
+
+  .contact-left, .contact-right {
+      flex-basis: 100%;
+  }
+} 
+
 /*-----------------------------FOOTER SECTION-------------------------------------*/
 /* @media only screen and (max-width: 600px){
     
